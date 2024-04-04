@@ -1,0 +1,441 @@
+/* ------------------------------------------  Common Properties  ------------------------------------------ */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  color: rgb(56, 54, 54);
+}
+
+.container-width {
+  width: 1100px;
+  padding: 0px 30px;
+}
+
+.main {
+  width: 100%;
+}
+
+/* ---------------------------------------- Section1-left-div ---------------------------------------- */
+
+.container1 {
+  z-index: 1;
+  justify-content: space-between;
+}
+
+.first-div {
+  position: absolute;
+  height: 660px;
+  width: 960px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: rgb(177, 224, 237);
+  background: linear-gradient(
+    342deg,
+    rgba(177, 224, 237, 1) 13%,
+    rgba(56, 169, 207, 0) 100%
+  );
+
+  left: 20px;
+  top: 0px;
+}
+
+.header {
+  padding: 60px 10px;
+}
+
+.icon::before {
+  font-size: 50px;
+  color: #54a5b1;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f7f9;
+  padding-bottom: 120px;
+}
+
+.divv {
+  border-bottom-right-radius: 50px;
+}
+
+.heading {
+  font-size: 50px;
+}
+
+.text {
+  width: 450px;
+  margin-top: 0px;
+  line-height: 1.5;
+  color: #8f9c9e;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio-div {
+  display: flex;
+  gap: 45px;
+}
+
+/* ---------------------------------------- Section1-right-div ---------------------------------------- */
+
+.Section1-middle-right-div {
+  display: flex;
+
+  justify-content: space-between;
+  font-size: 14px;
+  gap: 10px;
+}
+
+.section1-right-div {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 24px 20px 20px;
+  /* width: 317px; */
+  height: fit-content;
+}
+
+.details-heading {
+  font-size: 22px;
+  color: rgb(73, 72, 72);
+}
+
+.input {
+  border: 1px solid #979d9e;
+  gap: 120px;
+  padding: 20px 12px;
+  border-radius: 10px;
+
+  font-size: 20px;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+.weight-text,
+.height-text {
+  color: #979d9e;
+}
+
+.units {
+  color: blue;
+  font-size: 20px;
+  position: absolute;
+  top: 44px;
+  right: 20px;
+}
+
+.radio1,
+.radio2 {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+}
+
+.middle1-right-div,
+.middle1-left-div {
+  position: relative;
+}
+
+.Section1-lower-right-div,
+.Section1_2-lower-right-div {
+  background-color: blue;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 32px;
+  margin-top: 23px;
+  color: white;
+  opacity: 0.7;
+  padding-bottom: 16px;
+}
+
+.Welcome-heading {
+  font-size: 18px;
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+
+.section1-text {
+  margin-top: 0px;
+  font-size: 12px;
+}
+
+.Section1_2-lower-right-div {
+  display: flex;
+  gap: 30px;
+}
+
+.result-left-div {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.result-here {
+  font-size: 16px;
+}
+
+.result-num {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.result-right-div {
+  max-width: 260px;
+  line-height: 1.4;
+}
+
+.result-description {
+  margin-bottom: 0px;
+}
+
+.result-units {
+  font-weight: bold;
+}
+/* ---------------------------------------- Section2 ---------------------------------------- */
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  padding-bottom: 80px;
+  padding-top: 50px;
+  background-color: #f4f7f9;
+}
+
+.container2 {
+  background-color: #f4f7f9;
+}
+
+.sub-container2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section2-right-div {
+  max-width: 507px;
+  padding: 20px;
+}
+
+.BMI-text {
+  color: #979d9e;
+  line-height: 1.3;
+}
+
+.BMI-heading {
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+
+.image-empy-div {
+  width: 400px;
+  position: relative;
+  height: 400px;
+
+  border-radius: 30px;
+}
+
+.empty-div {
+  width: 400px;
+  height: 265px;
+  background-color: #c8e9f2;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.image {
+  position: absolute;
+  left: 28px;
+  height: 400px;
+}
+
+/* ---------------------------------------- Section3 ---------------------------------------- */
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  background-color: #e9f7fa;
+}
+
+.container3 {
+  background-color: #e9f7fa;
+}
+
+.cards {
+  display: flex;
+  padding: 55px 0px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-div {
+  max-width: 50px;
+  min-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 3;
+}
+
+.icon-div-1 {
+  background-color: #d9b1d1;
+  color: #ee27e0;
+}
+
+.icon-div-2 {
+  background-color: #ebc379;
+  color: orange;
+}
+
+.icon-div-3 {
+  background-color: #a4d2a4;
+  color: green;
+}
+
+.card-heading {
+  font-size: 24px;
+  color: #383636;
+  margin: 30px 0px;
+}
+
+.card-text {
+  margin-top: 0px;
+  color: #979d9e;
+}
+
+/* ---------------------------------------- Section4 ---------------------------------------- */
+
+.section4 {
+  display: flex;
+  background-color: #f4f7f9;
+  justify-content: center;
+}
+
+.sub-container4 {
+  gap: 30px;
+  flex-direction: column;
+  padding: 100px 0px;
+  background-color: #f4f7f9;
+}
+
+.sub-container-4_1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading1 {
+  font-size: 37px;
+  margin-bottom: 25px;
+}
+
+.description {
+  color: gray;
+  font-size: 14px;
+  margin-top: 0px;
+  line-height: 1.3;
+}
+
+.description1 {
+  max-width: 500px;
+  width: 100%;
+}
+
+.cart {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+
+.cart1 {
+  padding: 20px 20px 20px 0px;
+  background-color: #f4f7f9;
+}
+
+.icon-heading-div {
+  display: flex;
+  gap: 20px;
+}
+
+.cart-heading {
+  color: #383636;
+  margin-top: 0px;
+}
+
+.description2 {
+  max-width: 250px;
+  width: 100%;
+}
+
+.fa2::before,
+.fa3::before,
+.fa4::before,
+.fa5::before,
+.fa6::before {
+  font-size: 22px;
+}
+
+.fa2 {
+  color: orange;
+}
+
+.fa3 {
+  color: green;
+}
+
+.fa4 {
+  color: purple;
+}
+
+.fa5 {
+  color: orange;
+}
+
+.fa6 {
+  color: #ee27e0;
+}
+
+.sub-container-4_2 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+.description3,
+.description4 {
+  max-width: 250px;
+  width: 100%;
+}
+
+.description5,
+.description6 {
+  max-width: 240px;
+  width: 100%;
+}
+
+.sub-container-4_3 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.cart6,
+.cart2,
+.cart3,
+.cart4,
+.cart5 {
+  background-color: #fff;
+  box-shadow: 0 0 17px rgba(0, 0, 0, 0.1);
+}

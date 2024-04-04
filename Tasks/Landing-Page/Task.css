@@ -1,0 +1,254 @@
+/* ------------------------------------------  Common Properties  ------------------------------------------ */
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.main {
+  width: 100%;
+}
+
+.container-width {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0px 30px;
+}
+
+/* ------------------------------------------  Section1  ------------------------------------------ */
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  background-color: #300a4c;
+  height: fit-content;
+}
+
+/* ----------  upperPart-div-1  ---------- */
+
+.upperPart-div-1 {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  color: white;
+}
+
+.name {
+  color: white;
+  font-weight: lighter;
+  color: rgba(234, 232, 231, 0.941);
+  font-size: 18px;
+}
+
+.work {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.apply {
+  font-size: 16px;
+  color: rgba(234, 232, 231, 0.941);
+}
+
+.apply .underline {
+  border-bottom: 2px solid lightgreen;
+  padding-bottom: 3px;
+}
+
+/* ----------  middlePart-div-1  ---------- */
+
+.middlePart-div-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data .underline {
+  text-decoration: underline;
+  text-decoration-color: lightgreen;
+}
+
+.data {
+  font-family: ui-monospace;
+  font-weight: bold;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.learn {
+  padding: 10px 20px;
+  background-color: lightgreen;
+  margin-top: 30px;
+  border: none;
+  color: #300a4c;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* ----------  lowerPart-div-1  ---------- */
+
+.lowerPart-div-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.mobile {
+  width: 600px;
+  margin-top: 50px;
+  margin-bottom: -120px;
+  z-index: 1;
+}
+
+/* ------------------------------------------  Section2  ------------------------------------------ */
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.container2 {
+  background-color: whitesmoke;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 340px;
+}
+
+.num {
+  line-height: 1.5;
+  text-align: center;
+  height: 36px;
+  width: 36px;
+  font-size: 26px;
+  font-family: serif;
+  color: #300a4c;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.heading {
+  margin-top: 20px;
+  margin-bottom: 13px;
+  font-family: auto;
+  font-size: 36px;
+  color: #300a4c;
+}
+
+.description {
+  color: rgb(89, 88, 89);
+  font-size: 24px;
+}
+
+/* ------------------------------------------  Section3  ------------------------------------------ */
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  height: 440px;
+  padding: 90px 0px;
+}
+
+.container3 {
+  background-color: white;
+}
+
+.div-setting {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.cat-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.div1 {
+  background-color: #300a4c;
+  width: 500px;
+  height: 250px;
+  padding: 40px 50px;
+  align-self: flex-end;
+  margin-left: -58px;
+}
+
+.heading1 {
+  margin-top: 0px;
+  font-family: auto;
+  font-size: 39px;
+  color: white;
+  font-weight: bolder;
+}
+
+.text1 {
+  line-height: 2;
+  color: #ded5e4;
+}
+
+.btnn {
+  color: #300a4c;
+  background: lightgreen;
+  border: none;
+  padding: 20px 25px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* ------------------------------------------  Section4  ------------------------------------------ */
+
+.section4 {
+  display: flex;
+  justify-content: center;
+}
+
+.container4 {
+  padding-bottom: 50px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name2,
+.work2 {
+  color: #300a4c;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 130px;
+  color: #5d4f66;
+}

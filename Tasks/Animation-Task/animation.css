@@ -1,0 +1,187 @@
+@keyframes move1 {
+  0% {
+    left: 0;
+    top: 0;
+    background-color: #284862;
+  }
+
+  25% {
+    left: 332px;
+    top: 0px;
+  }
+
+  50% {
+    left: 332px;
+    background-color: #002a4c;
+    top: 350px;
+  }
+
+  75% {
+    left: 0px;
+    top: 350px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+    background-color: #284862;
+  }
+}
+
+@keyframes move2 {
+  0% {
+    right: 0px;
+    top: 0px;
+    background-color: #284862;
+  }
+
+  25% {
+    right: 0px;
+    top: 350px;
+  }
+
+  50% {
+    right: 332px;
+    top: 350px;
+    background-color: #002a4c;
+  }
+
+  75% {
+    right: 332px;
+    top: 0px;
+  }
+
+  100% {
+    right: 0px;
+    top: 0px;
+    background-color: #284862;
+  }
+}
+
+@keyframes move3 {
+  0% {
+    right: 0px;
+    bottom: 0px;
+    background-color: #284862;
+  }
+
+  25% {
+    right: 332px;
+    bottom: 0px;
+  }
+
+  50% {
+    right: 332px;
+    bottom: 350px;
+    background-color: #002a4c;
+  }
+
+  75% {
+    right: 0px;
+    bottom: 350px;
+  }
+
+  100% {
+    right: 0px;
+    bottom: 0px;
+    background-color: #284862;
+  }
+}
+
+@keyframes move4 {
+  0% {
+    left: 0px;
+    bottom: 0px;
+    background-color: #284862;
+  }
+
+  25% {
+    left: 0px;
+    bottom: 350px;
+  }
+
+  50% {
+    left: 350px;
+    bottom: 350px;
+    background-color: #002a4c;
+  }
+
+  75% {
+    left: 350px;
+    bottom: 0px;
+  }
+
+  100% {
+    left: 0px;
+    bottom: 0px;
+    background-color: #284862;
+  }
+}
+
+body {
+  color: #cbaf22;
+  display: flex;
+  height: 100vh;
+  background-color: #002a4c;
+}
+
+.container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 282px 282px;
+  grid-template-rows: 300px 300px;
+  gap: 50px;
+}
+
+.main {
+  position: relative;
+  background-color: rgb(202, 184, 184);
+  width: 232px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 25px;
+  background-color: #284862;
+  animation: move1 10s 1s infinite ease-in;
+  transition: all 2s;
+}
+
+img {
+  width: 120px;
+}
+
+.name {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.description {
+  margin: 0;
+  width: 170px;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.card-2 {
+  animation-name: move2;
+}
+
+.card-3 {
+  animation-name: move3;
+}
+
+.card-4 {
+  animation-name: move4;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-4:hover,
+.card-3:hover {
+  color: black;
+  background-color: #cbaf22;
+}
